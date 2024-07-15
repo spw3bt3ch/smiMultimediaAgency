@@ -8,7 +8,7 @@ import streamlit as st
 
 # st.set_page_config(layout="centered")
 
-st.markdown("""
+st.html("""
 <style>
 .st-emotion-cache-1p1m4ay.e3g6aar0
 {
