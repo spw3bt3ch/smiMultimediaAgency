@@ -11,10 +11,10 @@ import streamlit as st
 
 st.markdown("""
 <style>
-    .st-emotion-cache-15ecox0.ezrtsby0
-    {
-        visibility: hidden;
-    }
+.eyeqlp52.st-emotion-cache-1pbsqtx.ex0cdmw0
+{
+    visibility: hidden;
+}
 </style>
 """, unsafe_allow_html=True)
 
