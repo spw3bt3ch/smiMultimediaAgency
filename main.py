@@ -3,22 +3,19 @@ import streamlit as st
 # ................................
 # [theme]
 # base="dark"
-# backgroundColor="#020b20"
+# backgroundColor="#78044E"
 # ................................
 
 # st.set_page_config(layout="centered")
 
-st.html("""
-<style>
-.st-emotion-cache-1p1m4ay.e3g6aar0
-{
-    visibility: hidden;
-}
-body{
-    background-color: black;
-}
-</style>
-""", unsafe_allow_html=True)
+# st.html("""
+# <style>
+# .st-emotion-cache-1p1m4ay.e3g6aar0
+# {
+#     visibility: hidden;
+# }
+# </style>
+# """, unsafe_allow_html=True)
 
 home = st.Page(
     page="about.py",
@@ -70,12 +67,13 @@ cam = st.Page(
     page="cameraApp.py",
     title="Camera ID"
 )
-
+dev_image = st.image("galleryImages/Sam.png")
 nav = st.navigation(
     {
         "ABOUT US": [home, contact],
         "SERVICES": [software, web, graphicsDesign, productDesign, videoEdit, trainings],
-        "APPLICATION": [cam]
+        "APPLICATION": [cam],
+        "": [dev_image]
     }
 )
 
