@@ -8,10 +8,9 @@ import streamlit as st
 
 # st.set_page_config(layout="centered")
 
-
 st.markdown("""
 <style>
-.styles_terminalButton__JBj5T
+#MainMenu > button > svg
 {
     visibility: hidden;
 }
