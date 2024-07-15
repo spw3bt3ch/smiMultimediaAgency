@@ -70,7 +70,7 @@ nav = st.navigation(
     }
 )
 
-st.sidebar.text("SMI Solutions || (c) 2024")
+st.sidebar.text("SMI Solutions || (c) 2024\n(Created using Python)")
 st.logo("galleryImages/smilogo.png")
 # st.image("galleryImages/Sam.png")
 
