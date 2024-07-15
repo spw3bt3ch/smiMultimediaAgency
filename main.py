@@ -1,11 +1,5 @@
 import streamlit as st
 
-# ................................
-# [theme]
-# base="dark"
-# backgroundColor="#78044E"
-# ................................
-
 # st.set_page_config(layout="centered")
 
 # st.html("""
