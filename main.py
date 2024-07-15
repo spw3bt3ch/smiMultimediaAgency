@@ -14,6 +14,9 @@ st.markdown("""
 {
     visibility: hidden;
 }
+body{
+    background-color: black;
+}
 </style>
 """, unsafe_allow_html=True)
 
