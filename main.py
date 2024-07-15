@@ -67,18 +67,18 @@ cam = st.Page(
     page="cameraApp.py",
     title="Camera ID"
 )
-dev_image = st.image("galleryImages/Sam.png")
+# dev_image = st.image("galleryImages/Sam.png")
 nav = st.navigation(
     {
         "ABOUT US": [home, contact],
         "SERVICES": [software, web, graphicsDesign, productDesign, videoEdit, trainings],
-        "APPLICATION": [cam],
-        "": [dev_image]
+        "APPLICATION": [cam]
     }
 )
 
 st.sidebar.text("SMI Solutions || (c) 2024")
 st.logo("smilogo.png")
+st.image("galleryImages/Sam.png")
 
 nav.run()
 
