@@ -10,7 +10,7 @@ import streamlit as st
 
 st.markdown("""
 <style>
-#MainMenu > button > svg
+.st-emotion-cache-1p1m4ay e3g6aar0
 {
     visibility: hidden;
 }
