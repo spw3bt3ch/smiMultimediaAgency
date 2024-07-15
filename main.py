@@ -2,14 +2,14 @@ import streamlit as st
 
 # st.set_page_config(layout="centered")
 
-# st.html("""
-# <style>
-# .st-emotion-cache-1p1m4ay.e3g6aar0
-# {
-#     visibility: hidden;
-# }
-# </style>
-# """, unsafe_allow_html=True)
+st.markdown("""
+<style>
+.st-emotion-cache-15ecox0.ezrtsby0
+{
+    visibility: hidden;
+}
+</style>
+""", unsafe_allow_html=True)
 
 home = st.Page(
     page="about.py",
@@ -70,7 +70,7 @@ nav = st.navigation(
     }
 )
 
-st.sidebar.text("SMI Solutions || (c) 2024\n(Created using Python)")
+st.sidebar.text("SMI Solutions || (c) 2024\n(Created using a Python framework)")
 st.logo("galleryImages/smilogo.png")
 # st.image("galleryImages/Sam.png")
 
