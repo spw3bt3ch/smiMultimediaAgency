@@ -6,7 +6,17 @@ import streamlit as st
 # backgroundColor="#020b20"
 # ................................
 
-st.set_page_config(layout="centered")
+# st.set_page_config(layout="centered")
+
+
+st.markdown("""
+<style>
+    .st-emotion-cache-15ecox0.ezrtsby0
+    {
+        visibility: hidden
+    }
+</style>
+""")
 
 home = st.Page(
     page="about.py",
