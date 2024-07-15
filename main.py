@@ -77,8 +77,8 @@ nav = st.navigation(
 )
 
 st.sidebar.text("SMI Solutions || (c) 2024")
-st.logo("smilogo.png")
-st.image("galleryImages/Sam.png")
+st.logo("galleryImages/Sam.png")
+# st.image("galleryImages/Sam.png")
 
 nav.run()
 
