@@ -11,7 +11,7 @@ import streamlit as st
 
 st.markdown("""
 <style>
-.eyeqlp52.st-emotion-cache-1pbsqtx.ex0cdmw0
+.styles_terminalButton__JBj5T
 {
     visibility: hidden;
 }
