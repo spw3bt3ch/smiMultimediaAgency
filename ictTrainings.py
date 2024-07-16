@@ -9,8 +9,8 @@ with col1:
             "thereafter you will automatically be redirected to the Registration form")
 
 with col2:
-    st.link_button("Register For This Bootcamp At Once", "https://paystack.com/pay/coding-bootcamp")
-    st.link_button("Make further Enquiries before I pay", "https://wa.me/+2347077705842")
+    st.link_button("Register For This Bootcamp", "https://paystack.com/pay/coding-bootcamp")
+    st.link_button("Make further Enquiries", "https://wa.me/+2347077705842")
 st.divider()
 
 col1, col2 = st.columns(2, gap="medium", vertical_alignment="center")
