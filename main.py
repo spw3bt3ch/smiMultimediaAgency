@@ -4,10 +4,11 @@ import streamlit as st
 
 st.markdown("""
 <style>
-.st-emotion-cache-15ecox0.ezrtsby0
+.st-emotion-cache-15ecox0.ezrtsby0 .styles_terminalButton__JBj5T
 {
-    visibility: hidden;
+    visibility: none;
 }
+
 </style>
 """, unsafe_allow_html=True)
 
@@ -57,6 +58,11 @@ trainings = st.Page(
     title="ICT Training"
 )
 
+registration = st.Page(
+    page="registration_form.py",
+    title="Coding Registration"
+)
+
 cam = st.Page(
     page="cameraApp.py",
     title="Camera ID"
@@ -65,6 +71,7 @@ cam = st.Page(
 nav = st.navigation(
     {
         "ABOUT US": [home, contact],
+        "REGISTRATIONS": [registration],
         "SERVICES": [software, web, graphicsDesign, productDesign, videoEdit, trainings],
         "APPLICATION": [cam]
     }
