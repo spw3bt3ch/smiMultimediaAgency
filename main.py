@@ -4,13 +4,13 @@ import streamlit as st
 
 st.markdown("""
 <style>
-.st-emotion-cache-15ecox0.ezrtsby0 .styles_terminalButton__JBj5T
+.st-emotion-cache-15ecox0.ezrtsby0
 {
     visibility: none;
 }
-
 </style>
 """, unsafe_allow_html=True)
+
 
 home = st.Page(
     page="about.py",
