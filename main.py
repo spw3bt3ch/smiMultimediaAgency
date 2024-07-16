@@ -6,7 +6,7 @@ st.markdown("""
 <style>
 .st-emotion-cache-15ecox0.ezrtsby0
 {
-    visibility: none;
+    visibility: hidden;
 }
 </style>
 """, unsafe_allow_html=True)
